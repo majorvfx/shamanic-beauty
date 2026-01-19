@@ -1,0 +1,79 @@
+[NAVBAR]
+Brand: Phoenix Rising
+Links:
+- The Method
+- The Course
+- Success Stories
+Button: Book Now
+
+[HERO]
+Tagline: Ascend to Your Highest Self
+Heading: The Alchemy of Divine Femininity
+Body: LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING INDUSTRY. EXPERIENCE THE LUXURY OF RADICAL TRANSFORMATION THROUGH PHOENIX RISING.
+Button Primary: Schedule a Free Call
+Button Secondary: The Alchemy Course
+Visual Asset Text: PHOENIX
+
+[MARQUEE]
+Label: As Seen In
+Brands: VOGUE, FORBES, HARPER'S BAZAAR, COSMOPOLITAN, ELLE, THE NEW YORK TIMES
+
+[METHOD]
+Heading: The Method
+Subheading: A three-stage transformation journey designed to take you from hidden to highly visible.
+Step 1 Title: The Awakening
+Step 1 Description: Identify the dormant power within and break free from the cocoon of societal expectations.
+Step 2 Title: The Alchemy
+Step 2 Description: Transmute your deepest fears into your greatest strengths using the Divine Feminine framework.
+Step 3 Title: The Ascension
+Step 3 Description: Step into your new reality as a fully realized, magnetic force of nature. Rise like the Phoenix.
+
+[COURSE]
+Tagline: The Flagship Experience
+Heading: Alchemy of Divine Femininity
+Body: LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING INDUSTRY. THIS ISN'T JUST A COURSE—IT'S A REBIRTH INTO YOUR FULL POWER.
+Features:
+- 8 Deep-Dive Mastery Modules
+- Weekly Live Alchemy Ceremonies
+- Private Community of High-Value Women
+- 1-on-1 Breakthrough Session with Phoenix
+Price Value Label: Total Value
+Price Value: $12,000+
+Price Cost Label: Your Price
+Price Cost: $1,997
+Button: Enroll in Alchemy Now
+Card Label: Next Cohort
+Card Date: January 15th, 2026
+Card Note: Limited to 25 participants for intimacy.
+
+[TESTIMONIALS]
+Heading: Success Stories
+Subheading: Voices of women who have risen from the ashes.
+Testimonial 1:
+- Name: Alexandra Sterling
+- Role: Founding Partner @ Nexus
+- Quote: Working with Phoenix didn't just change my business; it changed my entire frequency. I achieved in 3 months what I couldn't in 3 years.
+Testimonial 2:
+- Name: Elena Vance
+- Role: Tech CEO
+- Quote: The Alchemy of Divine Femininity is the secret weapon every high-performing woman needs. Radical, deep, and utterly transformative.
+Testimonial 3:
+- Name: Sasha Thorne
+- Role: Artist & Philanthropist
+- Quote: I finally feel aligned. The 'Method' is profound. Phoenix guides you with a grace and power I've never seen before.
+
+[FOOTER]
+Heading: Ready to Rise?
+Subheading: Transformation is a choice. Make yours today.
+Button: Book your discovery call
+Navigation Header: Navigation
+Navigation Links:
+- The Method
+- The Course
+- Success Stories
+- About Phoenix
+Connect Header: Connect
+Email: hello@phoenixrising.co
+Brand: Phoenix Rising
+Copyright: © 2025 Phoenix Rising Transformation. All Rights Reserved.
+Legal Links: Privacy Policy, Terms of Service

@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FDFCFB;
+  --color-foreground: #375371;
+
+  --color-gold: #AAA993;
+  /* Legacy/Contrast Gold */
+  --color-quartz: #DFDDD9;
+  /* Smoked Quartz */
+  --color-cream: #E2D8C3;
+  /* Cream */
+
+  --color-gold-light: #E2D8C3;
+  /* Mapped to Cream */
+  --color-gold-dark: #8A8973;
+
+  --color-celestial: #467C92;
+  --color-celestial-light: #6A9AB0;
+
+  --color-sand: #DFDDD9;
+  /* Mapped to Quartz */
+  --color-blush: #F7F2F2;
+
+  --color-card: rgba(255, 255, 255, 0.6);
+  --color-card-border: rgba(55, 83, 113, 0.1);
+
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+}
+
+:root {
+  --background: #FDFCFB;
+  --foreground: #375371;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans font-extralight selection:bg-celestial selection:text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif font-light text-foreground;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-card backdrop-blur-xl border border-card-border shadow-2xl;
+  }
+
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-celestial via-[#5A8DA3] to-celestial;
+  }
+
+  .reveal-on-scroll {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .reveal-on-scroll.active {
+    @apply opacity-100 translate-y-0;
+  }
+}
