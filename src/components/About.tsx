@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { MoveRight } from "lucide-react";
 
 const About = () => {
@@ -21,11 +22,13 @@ const About = () => {
                         className="flex-1 w-full max-w-lg relative"
                     >
                         <div className="aspect-[3/4] rounded-[40px] overflow-hidden relative shadow-2xl bg-[#DFDDD9]">
-                            {/* Placeholder for Phoenix Rising Image */}
-                            <div className="absolute inset-0 flex items-center justify-center bg-foreground/5 text-foreground/20 font-serif italic text-3xl">
-                                Phoenix Rising
-                            </div>
-                            <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 to-transparent opacity-60" />
+                            <Image
+                                src="/assets/phoenix-rising.jpg"
+                                alt="Phoenix Rising"
+                                fill
+                                className="object-cover"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 to-transparent opacity-20" />
                         </div>
                         {/* Decorative Frame */}
                         <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-foreground/10 rounded-[40px] -z-10" />
