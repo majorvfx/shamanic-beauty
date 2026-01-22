@@ -46,15 +46,13 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
-                    <span className="inline-block px-4 py-2 rounded-full border border-gold/30 bg-white/50 backdrop-blur text-gold-dark text-xs md:text-sm tracking-widest mb-8 shadow-sm text-foreground/80 font-medium">
-                        “She remembers / she embodies / she becomes the Alchemist / she returns to love,” — Phoenix Rising
-                    </span>
                     <h1 className="text-5xl md:text-8xl font-light tracking-tighter leading-[0.9] mb-8 text-foreground">
                         <span className="text-gold italic font-serif">Divine Feminine</span> <br />
                         Alchemy
                     </h1>
-                    <p className="max-w-3xl mx-auto text-xl md:text-2xl text-foreground/80 mb-8 leading-relaxed font-serif italic text-gold">
-                        She Remembers... Embodies... Alchemizes... returns to Loving herself.
+                    <p className="max-w-4xl mx-auto text-xl md:text-2xl text-foreground/80 mb-8 leading-relaxed font-serif italic text-gold">
+                        “She remembers / she embodies / she becomes the Alchemist / she returns to love,” <br />
+                        <span className="text-sm uppercase tracking-widest not-italic font-medium text-foreground/60 mt-4 block">— Phoenix Rising</span>
                     </p>
                     <p className="max-w-2xl mx-auto text-lg text-foreground/70 mb-12 leading-relaxed font-light">
                         This is for the woman who has been highly successful, yet feels the quiet cost of always being strong, and now is ready to come back to herself.
