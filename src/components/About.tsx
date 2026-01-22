@@ -49,16 +49,16 @@ const About = () => {
 
                         <div className="space-y-6 text-lg text-foreground/70 font-light leading-relaxed">
                             <p>
-                                I was disconnected from my mother at birth, and the deep distrust that followed lived in my body long before I had language for it. Healing that wound became my passage in this lifetime.
+                                From the outside, I was highly successful.
                             </p>
                             <p>
-                                It showed me how memory lives inside the body itself. Trauma, abandonment, and disconnection are not ideas we carry. They are physical experiences stored in tissue, breath, and sensation.
+                                As an independent recording artist, I broke the Billboard Top 10 under the name Nyee Moses, reaching over six million listeners worldwide. I was driven, disciplined, and capable. I showed up on the big stage and knew how to perform at a high level.
                             </p>
                             <p>
-                                In order to heal, I had to remember myself. I had to learn how to embody what I felt instead of overriding it. I had to allow what had been suppressed to change, reorganize, and alchemize.
+                                What most people couldn’t see, even at this level of success, was what lived underneath it. Unresolved abandonment and early childhood trauma didn’t disappear with accomplishment. They were buried beneath productivity, motivation, and my ability to be strong. Behind the success, I struggled with impostor syndrome and self-worth, carrying a quiet disconnection from my true voice and intuition.
                             </p>
                             <p>
-                                Through that process, I returned to loving myself, not as a concept, but as a lived, embodied state.
+                                I began to realize that no amount of success would ever feel complete without restoring my connection to my feminine heart, my intuition, and my body. What followed was not a reinvention, but a remembering.
                             </p>
                         </div>
 

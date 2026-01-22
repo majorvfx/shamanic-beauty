@@ -46,8 +46,8 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
-                    <span className="inline-block px-4 py-1.5 rounded-full border border-gold/30 bg-white/50 backdrop-blur text-gold-dark text-xs tracking-[0.2em] uppercase mb-8 shadow-sm text-foreground/80">
-                        My Method is R·E·A·L.
+                    <span className="inline-block px-4 py-2 rounded-full border border-gold/30 bg-white/50 backdrop-blur text-gold-dark text-xs md:text-sm tracking-widest mb-8 shadow-sm text-foreground/80 font-medium">
+                        “She remembers / she embodies / she becomes the Alchemist / she returns to love,” — Phoenix Rising
                     </span>
                     <h1 className="text-5xl md:text-8xl font-light tracking-tighter leading-[0.9] mb-8 text-foreground">
                         <span className="text-gold italic font-serif">Divine Feminine</span> <br />
@@ -57,8 +57,7 @@ const Hero = () => {
                         She Remembers... Embodies... Alchemizes... returns to Loving herself.
                     </p>
                     <p className="max-w-2xl mx-auto text-lg text-foreground/70 mb-12 leading-relaxed font-light">
-                        This work is for women who know how to succeed, yet feel the quiet cost of always being strong.
-                        It is about remembering who you were before you learned to override yourself.
+                        This is for the woman who has been highly successful, yet feels the quiet cost of always being strong, and now is ready to come back to herself.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
