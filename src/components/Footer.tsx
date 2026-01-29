@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { ArrowRight, Instagram, Linkedin, Twitter } from "lucide-react";
+import { ArrowRight, Instagram } from "lucide-react";
 
 const Footer = () => {
     return (
@@ -40,9 +40,10 @@ const Footer = () => {
                     <div>
                         <h4 className="font-medium uppercase tracking-widest text-xs mb-8 text-foreground/40">Connect</h4>
                         <div className="flex gap-6">
-                            <SocialIcon icon={<Instagram size={24} />} />
-                            <SocialIcon icon={<Linkedin size={24} />} />
-                            <SocialIcon icon={<Twitter size={24} />} />
+                            <SocialIcon
+                                href="https://www.instagram.com/theofficialphoenixrising/"
+                                icon={<Instagram size={24} />}
+                            />
                         </div>
                         <p className="mt-8 text-foreground/40 text-sm">
                             phoenix@shamanicbeauty.com
@@ -58,8 +59,8 @@ const Footer = () => {
                         © 2026-2027 Shamanic Beauty. All Rights Reserved.
                     </p>
                     <div className="flex gap-8 text-xs font-medium uppercase tracking-widest text-foreground/40">
-                        <Link href="#" className="hover:text-gold-dark transition-colors">Privacy Policy</Link>
-                        <Link href="#" className="hover:text-gold-dark transition-colors">Terms of Service</Link>
+                        <Link href="/privacy" className="hover:text-gold-dark transition-colors">Privacy Policy</Link>
+                        <Link href="/terms" className="hover:text-gold-dark transition-colors">Terms of Service</Link>
                     </div>
                 </div>
             </div>
@@ -78,8 +79,8 @@ const FooterLink = ({ href, children }: { href: string; children: React.ReactNod
     </li>
 );
 
-const SocialIcon = ({ icon }: { icon: React.ReactNode }) => (
-    <Link href="#" className="text-foreground/50 hover:text-gold-dark transition-all transform hover:scale-110">
+const SocialIcon = ({ icon, href }: { icon: React.ReactNode; href: string }) => (
+    <Link href={href} target="_blank" rel="noopener noreferrer" className="text-foreground/50 hover:text-gold-dark transition-all transform hover:scale-110">
         {icon}
     </Link>
 );
