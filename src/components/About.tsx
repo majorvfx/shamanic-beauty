@@ -50,18 +50,33 @@ const About = () => {
                             <span className="italic">my lived experience.</span>
                         </h2>
 
-                        <div className="space-y-6 text-lg text-foreground/70 font-light leading-relaxed">
+                        <div className="space-y-6 text-sm text-foreground/70 font-light leading-relaxed">
                             <p>
-                                From the outside, I was highly successful.
+                                As someone who broke the Billboard Top 10 as an independent recording artist, yet dreaded getting on stage most of the time, I know what it means to appear confident at the top of your game while quietly carrying the weight of not fully trusting your own voice, even after years of building success.
                             </p>
                             <p>
-                                As an independent recording artist, I broke the Billboard Top 10 under the name Nyee Moses, reaching over six million listeners worldwide. I was driven, disciplined, and capable. I showed up on the big stage and knew how to perform at a high level.
+                                I met so many remarkable women along the way, executives and creatives with extraordinary careers. Yet beneath the success, there was often a disconnect, an absence of ease, joy, and true connection. It stirred something essential inside me, because I recognized it in myself, and my purpose began to expand beyond just my music career and toward helping other women reconnect to their true happiness.
                             </p>
                             <p>
-                                What most people couldn’t see, even at this level of success, was what lived underneath it. Unresolved abandonment and early childhood trauma didn’t disappear with accomplishment. They were buried beneath productivity, motivation, and my ability to be strong. Behind the success, I struggled with impostor syndrome and self-worth, carrying a quiet disconnection from my true voice and intuition.
+                                When I got off the road from my music tour, I realized I needed to do the work, to understand what I had experienced, the old subconscious patterns and beliefs holding me back, and what I was seeing mirrored in the many women I met along the way. Over the years, I became a hypnotherapist, a past life regressionist, a somatic healer, and a shamanic practitioner. I immersed myself in the ancient feminine wisdom teachings that had been largely forgotten or fragmented.
                             </p>
                             <p>
-                                I began to realize that no amount of success would ever feel complete without restoring my connection to my feminine heart, my intuition, and my body. What followed was not a reinvention, but a remembering.
+                                The truth I couldn’t ignore was that most women were not experiencing their fullness. The wisdom that once passed from mother to daughter, from grandmother to granddaughter, had been interrupted for generations, silenced.
+                            </p>
+                            <p>
+                                I felt that absence profoundly, having been given up at birth and disconnected from lineage, without the wisdom of my grandmothers.
+                            </p>
+                            <p>
+                                When feminine wisdom is missing, it shapes how we relate to everything in our world, our bodies, our relationships, how we love, how we lead, and how much of ourselves we allow to exist.
+                            </p>
+                            <p>
+                                As women, we carry many lives inside one body, constantly holding, responding, providing, and creating. Over time, that holding becomes a way of being, and the body forgets what it feels like to rest inside itself, to be held rather than holding.
+                            </p>
+                            <p>
+                                As I moved into becoming a high level coach for women, I saw that same absence reflected in nearly every woman I worked with. High achieving, capable women who knew how to succeed, yet carried a quiet disconnection from intimacy, from ease, and from their own inner authority.
+                            </p>
+                            <p>
+                                We learned how to succeed, but many of us did so by leaving our natural state behind. I created Divine Feminine Alchemy because no woman should have to live her life disconnected from her body, her wisdom, or the lineage that has always belonged to her.
                             </p>
                         </div>
 

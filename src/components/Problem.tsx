@@ -24,13 +24,8 @@ const Problem = () => {
                     transition={{ delay: 0.2 }}
                     className="space-y-6 text-xl font-light text-foreground/70 leading-relaxed"
                 >
-                    <p>
-                        You are high-functioning, successful, and capable. You know how to get things done.
-                        But underneath the accolades and the stability, there is a subtle, persistent disconnection.
-                    </p>
-                    <p>
-                        You suspect that your "anxiety" is actually untended intuition.
-                        You feel a longing for something deeper, something <em>real</em>, but you don't know how to access it without falling apart.
+                    <p className="font-serif italic text-2xl md:text-3xl text-foreground/80">
+                        “You’ve mastered how to move forward. What you haven’t been shown is how to come back to yourself.”
                     </p>
                 </motion.div>
             </div>
