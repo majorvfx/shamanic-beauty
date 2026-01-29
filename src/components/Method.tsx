@@ -6,26 +6,26 @@ import { Sparkles, Waves, Sun, Heart } from "lucide-react";
 
 const steps = [
     {
-        title: "R — Remembering",
-        description: "The body regains access to what has been carried in the subconscious, the tissues, and the lineage across lifetimes. What was adapted, silenced, or forgotten in order to survive begins to surface.",
+        title: "R — Remember",
+        description: "The body remembers what was silenced in women across generations. What was carried through mothers and grandmothers, held quietly in the body and subconscious, begins to return.",
         icon: <Sparkles className="text-gold" size={32} />,
         color: "bg-gold/10",
     },
     {
-        title: "E — Embodying",
-        description: "What is remembered settles into the nervous system through breath. The body learns it is safe to hold truth without bracing, collapsing, or disconnecting.",
+        title: "E — Embody",
+        description: "When a woman is embodied, her nervous system settles and her whole system leans toward truth. Her body remembers how to receive, and she relaxes into presence without collapsing or disconnecting.",
         icon: <Waves className="text-sunset" size={32} />,
         color: "bg-sunset/10",
     },
     {
-        title: "A — Alchemizing",
-        description: "Inherited patterns reorganize at a cellular and emotional level. Survival strategies soften because they are no longer needed. Coherence replaces fragmentation.",
+        title: "A — Alchemize",
+        description: "Alchemy is a woman’s superpower. As the one who births life, she transforms what she carries. Ancestral trauma no longer needs to be hers.",
         icon: <Sun className="text-gold-light" size={32} />,
         color: "bg-gold-light/10",
     },
     {
-        title: "L — Loving",
-        description: "Loving returns as an embodied state. This is the embodiment of self-love, forgiveness of self, and forgiveness carried through the lineage. The return of the feminine heart.",
+        title: "L — Love",
+        description: "To love authentically is the highest frequency found in a woman’s heart. Self-love and compassion restore her Divine Heart, making real intimacy possible.",
         icon: <Heart className="text-rose-400" size={32} />,
         color: "bg-rose-400/10",
     },
