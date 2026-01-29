@@ -47,6 +47,21 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
+                    {/* Floating Logo */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
+                        className="relative max-w-md mx-auto flex items-center justify-center mb-8"
+                    >
+                        <Image
+                            src="/assets/shamanic-logo.png"
+                            alt="Shamanic Beauty Logo"
+                            width={300}
+                            height={200}
+                            className="object-contain drop-shadow-2xl"
+                        />
+                    </motion.div>
                     <h1 className="text-5xl md:text-8xl font-light tracking-tighter leading-[0.9] mb-8 text-foreground">
                         <span className="text-gold italic font-serif">Divine Feminine</span> <br />
                         Alchemy
@@ -83,21 +98,7 @@ const Hero = () => {
                 </motion.div>
 
                 {/* Hero Image/Asset Placeholder */}
-                {/* Floating Logo */}
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-                    className="mt-20 relative max-w-md mx-auto aspect-video flex items-center justify-center p-8"
-                >
-                    <Image
-                        src="/assets/shamanic-logo.png"
-                        alt="Shamanic Beauty Logo"
-                        width={600}
-                        height={400}
-                        className="object-contain drop-shadow-2xl"
-                    />
-                </motion.div>
+
             </div>
         </section>
     );
