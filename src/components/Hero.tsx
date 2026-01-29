@@ -57,7 +57,7 @@ const Hero = () => {
                         <p>You will Love Authentically.</p>
                     </div>
                     <p className="max-w-2xl mx-auto text-lg text-foreground/70 mb-12 leading-relaxed font-light">
-                        This is for the woman who has been highly successful, yet feels the quiet cost of always being strong, and now is ready to come back to herself.
+                        This is for the woman who is highly successful, carrying the quiet cost of holding it all together and ready to exhale.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
