@@ -7,7 +7,7 @@ import { ArrowRight, Play } from "lucide-react";
 
 const Hero = () => {
     // CHANGE THE VIDEO URL HERE
-    const BACKGROUND_VIDEO_URL = "https://youtu.be/Zx3hsCTwb7Q";
+    const BACKGROUND_VIDEO_URL = "https://youtu.be/DeDOitxtwTA";
 
     const getVideoId = (url: string) => {
         const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
