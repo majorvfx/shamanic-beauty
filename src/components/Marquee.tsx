@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const brands = [
-    "VOGUE", "FORBES", "HARPER'S BAZAAR", "COSMOPOLITAN", "ELLE", "THE NEW YORK TIMES"
+    "THE HISTORY CHANNEL", "GAIA", "ENTERTAINMENT WEEKLY", "BILLBOARD", "SPOTIFY"
 ];
 
 const Marquee = () => {
