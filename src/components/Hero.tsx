@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { ArrowRight, Play } from "lucide-react";
 
 const Hero = () => {
@@ -82,16 +83,20 @@ const Hero = () => {
                 </motion.div>
 
                 {/* Hero Image/Asset Placeholder */}
+                {/* Floating Logo */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-                    className="mt-20 relative max-w-5xl mx-auto rounded-[32px] overflow-hidden shadow-2xl shadow-gold/10 border border-white/40 aspect-video group bg-white"
+                    className="mt-20 relative max-w-md mx-auto aspect-video flex items-center justify-center p-8"
                 >
-                    <div className="absolute inset-0 bg-gradient-to-tr from-gold/5 via-transparent to-blush/20 z-10" />
-                    <div className="w-full h-full flex items-center justify-center bg-[#FDFCFB]">
-                        <span className="text-foreground/5 text-8xl font-light select-none font-serif italic">SHAMANIC</span>
-                    </div>
+                    <Image
+                        src="/assets/shamanic-logo.png"
+                        alt="Shamanic Beauty Logo"
+                        width={600}
+                        height={400}
+                        className="object-contain drop-shadow-2xl"
+                    />
                 </motion.div>
             </div>
         </section>
