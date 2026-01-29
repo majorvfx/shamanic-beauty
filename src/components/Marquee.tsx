@@ -30,7 +30,7 @@ const Marquee = () => {
                     {[...brands, ...brands].map((brand, index) => (
                         <span
                             key={index}
-                            className="text-3xl md:text-5xl font-serif font-light text-foreground/20 hover:text-gold/80 transition-colors cursor-default"
+                            className="text-3xl md:text-5xl font-serif font-light text-foreground/40 hover:text-gold/80 transition-colors cursor-default"
                         >
                             {brand}
                         </span>
