@@ -50,7 +50,7 @@ const About = () => {
                             <span className="italic">my lived experience.</span>
                         </h2>
 
-                        <div className="space-y-6 text-sm text-foreground/70 font-light leading-relaxed">
+                        <div className="space-y-6 text-base md:text-lg text-foreground font-light leading-relaxed">
                             <p>
                                 As someone who broke the Billboard Top 10 as an independent recording artist, yet dreaded getting on stage most of the time, I know what it means to appear confident at the top of your game while quietly carrying the weight of not fully trusting your own voice, even after years of building success.
                             </p>
