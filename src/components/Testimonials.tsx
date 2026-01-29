@@ -94,9 +94,7 @@ const Testimonials = () => {
                             Success <br />
                             <span className="font-serif italic text-gold">Stories</span>
                         </h2>
-                        <p className="text-foreground/60 text-xl font-light">
-                            Voices of women who have risen from the ashes.
-                        </p>
+
                     </div>
                     <div className="flex gap-4">
                         <button
