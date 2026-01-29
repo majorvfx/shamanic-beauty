@@ -20,7 +20,7 @@ const whoIsNotFor = [
 const pillars = [
     {
         title: "The Curriculum",
-        desc: "Lifetime access to 8 mastery modules covering the R.E.A.L. method.",
+        desc: "Lifetime access to the Divine Feminine Alchemy Course",
     },
     {
         title: "Live Alchemy",
