@@ -50,10 +50,12 @@ const Hero = () => {
                         <span className="text-gold italic font-serif">Divine Feminine</span> <br />
                         Alchemy
                     </h1>
-                    <p className="max-w-4xl mx-auto text-xl md:text-2xl text-foreground mb-8 leading-relaxed font-serif italic">
-                        “She remembers... she embodies... she becomes the Alchemist... she returns to love.” <br />
-                        <span className="text-sm uppercase tracking-widest not-italic font-medium text-foreground/60 mt-4 block">~Phoenix Rising</span>
-                    </p>
+                    <div className="max-w-4xl mx-auto text-xl md:text-3xl text-foreground mb-10 leading-relaxed font-serif italic space-y-2">
+                        <p>You will remember your divine femininity.</p>
+                        <p>You will embody your intuition.</p>
+                        <p>You will alchemize generational stories.</p>
+                        <p>You will Love Authentically.</p>
+                    </div>
                     <p className="max-w-2xl mx-auto text-lg text-foreground/70 mb-12 leading-relaxed font-light">
                         This is for the woman who has been highly successful, yet feels the quiet cost of always being strong, and now is ready to come back to herself.
                     </p>
