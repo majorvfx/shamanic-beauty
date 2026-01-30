@@ -20,10 +20,10 @@ export default function FrequencyPage() {
                 </div>
 
                 <div className="relative z-10 container mx-auto px-6 py-20 text-center">
-                    <h1 className="text-4xl md:text-6xl font-serif text-white mb-4 drop-shadow-lg animate-fade-in-up">
+                    <h1 className="text-4xl md:text-6xl font-serif text-foreground mb-4 drop-shadow-lg animate-fade-in-up">
                         The Feminine Frequency of Abundance
                     </h1>
-                    <h2 className="text-xl md:text-2xl font-light text-gold tracking-widest uppercase mb-8 animate-fade-in-up delay-200">
+                    <h2 className="text-xl md:text-2xl font-light text-gold-dark tracking-widest uppercase mb-8 animate-fade-in-up delay-200">
                         Women are the Living Law of Abundance
                     </h2>
                     <Link
