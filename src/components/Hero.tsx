@@ -77,7 +77,7 @@ const Hero = () => {
                         This is for the woman who is highly successful, carrying the quiet cost of holding it all together and ready to exhale.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
                         <Link href="https://calendar.app.google/ufFSRhQpDQZyahyZ6" target="_blank">
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
