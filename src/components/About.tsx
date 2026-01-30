@@ -23,7 +23,7 @@ const About = () => {
                     >
                         <div className="aspect-[3/4] rounded-[40px] overflow-hidden relative shadow-2xl bg-[#DFDDD9]">
                             <Image
-                                src="/assets/phoenix-rising.jpg"
+                                src="/assets/phoenix-new.jpg"
                                 alt="Phoenix Rising"
                                 fill
                                 className="object-cover"
