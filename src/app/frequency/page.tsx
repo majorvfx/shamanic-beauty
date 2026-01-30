@@ -45,7 +45,7 @@ export default function FrequencyPage() {
                         voice steady, at ease, like the warm sun on your face. Not rushing,
                         not reaching, just being held in a quiet sense of enough. It is the
                         kind of ease that tells your nervous system it can finally rest. In
-                        that moment, you have everything you need.
+                        that moment, you have everything you need, and your natural abundance activates.
                     </p>
                     <p>
                         This is not a course designed to fix you or teach you how to become
@@ -63,6 +63,8 @@ export default function FrequencyPage() {
                     </p>
                     <p className="text-2xl font-serif text-gold italic text-center py-8">
                         Women are the Living Law of Abundance.
+                        <br />
+                        <span className="text-lg block mt-4 font-sans not-italic text-foreground">You hold the Trinity Codes. The Universal Laws are yours.</span>
                     </p>
                     <p>
                         <strong className="text-gold font-medium">The Law of Vibration</strong> reminds us
@@ -74,7 +76,7 @@ export default function FrequencyPage() {
                     <p>
                         <strong className="text-gold font-medium">The Law of Correspondence</strong> is
                         lived through the feminine body. As within, so without is not a
-                        concept to understand, it is a reality women feel. When the inner
+                        concept to understand, it is a reality women feel. It is the wisdom of the womb, your innate feminine code. When the inner
                         environment becomes safe and coherent, the outer world reorganizes to
                         reflect it.
                     </p>
@@ -158,6 +160,14 @@ export default function FrequencyPage() {
                                     is simply supported in remembering its natural rhythm, allowing
                                     harmony, joy, and authenticity to return.
                                 </p>
+                                <div className="border-t border-gold/20 pt-6 mt-6">
+                                    <p className="font-serif italic text-xl text-gold-dark">
+                                        Sister…
+                                    </p>
+                                    <p className="mt-2">
+                                        You are here to create Abundance… You are the Cosmic Computer, the Feminine Creatrix who births everything into this realm.
+                                    </p>
+                                </div>
                             </div>
 
                             <div className="pt-8">
