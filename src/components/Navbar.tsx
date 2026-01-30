@@ -31,11 +31,13 @@ const Navbar = () => {
 
                 {/* Desktop Nav */}
                 <div className="hidden md:flex items-center space-x-8">
-                    <NavLink href="#method">The Method</NavLink>
-                    <NavLink href="#course">The Course</NavLink>
-                    <NavLink href="#stories">Success Stories</NavLink>
+                    <NavLink href="/#method">The Method</NavLink>
+                    <NavLink href="/frequency">Frequency</NavLink>
+                    <NavLink href="/#course">The Course</NavLink>
+                    <NavLink href="/#stories">Success Stories</NavLink>
                     <Link
-                        href="#book"
+                        href="https://square.site/book/L9X8X8H0K6K09/shamanic-beauty-cloverdale-or"
+                        target="_blank"
                         className="px-6 py-2.5 rounded-full bg-gold text-background font-medium hover:bg-gold-light transition-colors"
                     >
                         Book Now
@@ -58,11 +60,13 @@ const Navbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     className="absolute top-full left-0 right-0 bg-background border-b border-card-border p-6 flex flex-col space-y-4 md:hidden"
                 >
-                    <NavLink href="#method" onClick={() => setMobileMenuOpen(false)}>The Method</NavLink>
-                    <NavLink href="#course" onClick={() => setMobileMenuOpen(false)}>The Course</NavLink>
-                    <NavLink href="#stories" onClick={() => setMobileMenuOpen(false)}>Success Stories</NavLink>
+                    <NavLink href="/#method" onClick={() => setMobileMenuOpen(false)}>The Method</NavLink>
+                    <NavLink href="/frequency" onClick={() => setMobileMenuOpen(false)}>Frequency</NavLink>
+                    <NavLink href="/#course" onClick={() => setMobileMenuOpen(false)}>The Course</NavLink>
+                    <NavLink href="/#stories" onClick={() => setMobileMenuOpen(false)}>Success Stories</NavLink>
                     <Link
-                        href="#book"
+                        href="https://square.site/book/L9X8X8H0K6K09/shamanic-beauty-cloverdale-or"
+                        target="_blank"
                         onClick={() => setMobileMenuOpen(false)}
                         className="w-full text-center px-6 py-3 rounded-full bg-gold text-background font-medium"
                     >
