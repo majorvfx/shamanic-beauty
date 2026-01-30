@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   description: "Experience the Alchemy of Divine Femininity. Premium transformation coaching for the modern high-achiever.",
 };
 
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,7 +32,9 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${cormorant.variable} font-sans antialiased bg-background text-foreground`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
