@@ -40,12 +40,7 @@ export default function FrequencyPage() {
             <section className="py-16 md:py-24 px-6 relative z-10">
                 <div className="container mx-auto max-w-4xl space-y-8 text-lg font-light leading-relaxed text-foreground/90">
                     <p>
-                        Sister, what if you could feel it in your body first. Your belly soft
-                        and relaxed. Your heart open and safe. Your throat settled, your
-                        voice steady, at ease, like the warm sun on your face. Not rushing,
-                        not reaching, just being held in a quiet sense of enough. It is the
-                        kind of ease that tells your nervous system it can finally rest. In
-                        that moment, you have everything you need, and your natural abundance activates.
+                        Sister, what if you could feel it in your body first? Your heart open and safe. Your throat settled, voice steady and strong, your belly relaxed like the sun warming your body, just calm. Not rushing, not reaching, just being held in that quiet sense of “enough.” It is the kind of ease that tells your nervous system it can finally rest. In that moment, you have everything you need, and this is when your natural state of abundance activates.
                     </p>
                     <p>
                         This is not a course designed to fix you or teach you how to become
@@ -54,9 +49,7 @@ export default function FrequencyPage() {
                         architecture your body was born with.
                     </p>
                     <p>
-                        Abundance, in its true form, has never been about money alone. It is
-                        an overflow of resources, opportunity, support, love, creativity,
-                        gratitude, and time. When a woman’s body is regulated and her
+                        Abundance, in its true form, has never been about money alone, rather an overflow of resources, opportunity, support, love, creativity, gratitude, and time. When a woman’s body is regulated and her
                         nervous system feels at ease, abundance expresses itself naturally.
                         Not because she chased it, but because she is finally available to
                         receive it.
