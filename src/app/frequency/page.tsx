@@ -27,7 +27,7 @@ export default function FrequencyPage() {
                         Women are the Living Law of Abundance
                     </h2>
                     <Link
-                        href="https://square.site/book/L9X8X8H0K6K09/shamanic-beauty-cloverdale-or"
+                        href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
                         target="_blank"
                         className="inline-block px-8 py-4 bg-gold hover:bg-gold-light text-background font-medium text-lg rounded-none transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(212,175,55,0.3)] animate-fade-in-up delay-300"
                     >

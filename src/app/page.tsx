@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import About from "@/components/About";
@@ -19,9 +20,13 @@ export default function Home() {
 
       {/* Sticky Book Now Bar for Mobile */}
       <div className="md:hidden sticky bottom-6 left-0 right-0 z-40 px-6 pointer-events-none">
-        <button className="w-full py-4 rounded-full bg-gold text-background font-medium text-lg shadow-2xl flex items-center justify-center gap-2 pointer-events-auto active:scale-95 transition-transform backdrop-blur-sm">
+        <Link
+          href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
+          target="_blank"
+          className="w-full py-4 rounded-full bg-gold text-background font-medium text-lg shadow-2xl flex items-center justify-center gap-2 pointer-events-auto active:scale-95 transition-transform backdrop-blur-sm"
+        >
           Book Now
-        </button>
+        </Link>
       </div>
     </main>
   );

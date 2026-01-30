@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight, Play } from "lucide-react";
 
 const Hero = () => {
@@ -77,15 +78,17 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                        <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="group relative px-8 py-4 rounded-full bg-foreground text-background text-lg overflow-hidden transition-all shadow-xl hover:shadow-2xl"
-                        >
-                            <span className="relative z-10 flex items-center gap-2">
-                                Schedule a Free Call <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-                            </span>
-                        </motion.button>
+                        <Link href="https://calendar.app.google/ufFSRhQpDQZyahyZ6" target="_blank">
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="group relative px-8 py-4 rounded-full bg-foreground text-background text-lg overflow-hidden transition-all shadow-xl hover:shadow-2xl"
+                            >
+                                <span className="relative z-10 flex items-center gap-2">
+                                    Schedule a Free Call <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                                </span>
+                            </motion.button>
+                        </Link>
 
                         <motion.button
                             whileHover={{ scale: 1.05 }}

@@ -36,7 +36,7 @@ const Navbar = () => {
                     <NavLink href="/#course">The Course</NavLink>
                     <NavLink href="/#stories">Success Stories</NavLink>
                     <Link
-                        href="https://square.site/book/L9X8X8H0K6K09/shamanic-beauty-cloverdale-or"
+                        href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
                         target="_blank"
                         className="px-6 py-2.5 rounded-full bg-gold text-background font-medium hover:bg-gold-light transition-colors"
                     >
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <NavLink href="/#course" onClick={() => setMobileMenuOpen(false)}>The Course</NavLink>
                     <NavLink href="/#stories" onClick={() => setMobileMenuOpen(false)}>Success Stories</NavLink>
                     <Link
-                        href="https://square.site/book/L9X8X8H0K6K09/shamanic-beauty-cloverdale-or"
+                        href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
                         target="_blank"
                         onClick={() => setMobileMenuOpen(false)}
                         className="w-full text-center px-6 py-3 rounded-full bg-gold text-background font-medium"
