@@ -53,7 +53,7 @@ const Hero = () => {
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-                        className="relative max-w-md mx-auto flex items-center justify-center mb-8 mt-24"
+                        className="relative max-w-md mx-auto flex items-center justify-center mb-8 mt-40"
                     >
                         <Image
                             src="/assets/shamanic-logo.png"
