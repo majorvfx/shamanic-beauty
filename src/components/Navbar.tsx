@@ -32,8 +32,8 @@ const Navbar = () => {
                 {/* Desktop Nav */}
                 <div className="hidden md:flex items-center space-x-8">
                     <NavLink href="/#method">The Method</NavLink>
-                    <NavLink href="/frequency">Frequency</NavLink>
                     <NavLink href="/#course">The Course</NavLink>
+                    <NavLink href="/frequency">The Frequency</NavLink>
                     <NavLink href="/#stories">Success Stories</NavLink>
                     <Link
                         href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
@@ -61,8 +61,8 @@ const Navbar = () => {
                     className="absolute top-full left-0 right-0 bg-background border-b border-card-border p-6 flex flex-col space-y-4 md:hidden"
                 >
                     <NavLink href="/#method" onClick={() => setMobileMenuOpen(false)}>The Method</NavLink>
-                    <NavLink href="/frequency" onClick={() => setMobileMenuOpen(false)}>Frequency</NavLink>
                     <NavLink href="/#course" onClick={() => setMobileMenuOpen(false)}>The Course</NavLink>
+                    <NavLink href="/frequency" onClick={() => setMobileMenuOpen(false)}>The Frequency</NavLink>
                     <NavLink href="/#stories" onClick={() => setMobileMenuOpen(false)}>Success Stories</NavLink>
                     <Link
                         href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
@@ -82,7 +82,7 @@ const NavLink = ({ href, children, onClick }: { href: string; children: React.Re
     <Link
         href={href}
         onClick={onClick}
-        className="text-foreground/70 hover:text-gold transition-colors font-light text-sm uppercase tracking-widest"
+        className="text-foreground/70 hover:text-gold transition-colors font-bold text-sm uppercase tracking-widest"
     >
         {children}
     </Link>
