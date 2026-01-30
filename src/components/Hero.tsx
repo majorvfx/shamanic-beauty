@@ -32,7 +32,7 @@ const Hero = () => {
                         />
                     </div>
                 )}
-                <div className="absolute inset-0 bg-background/50 backdrop-blur-[1px]" />
+                <div className="absolute inset-0 bg-background/20 backdrop-blur-[1px]" />
             </div>
 
             {/* Background Decorative Elements */}
