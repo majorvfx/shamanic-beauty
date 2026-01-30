@@ -13,8 +13,8 @@ const Problem = () => {
                     viewport={{ once: true }}
                     className="text-3xl md:text-5xl font-light leading-tight text-foreground mb-10"
                 >
-                    You lead every room. You make the calls. You run the show.
-                    <span className="font-serif italic text-gold-dark block mt-2">And yet, something inside still feels empty?</span>
+                    You handle it all. You follow through. You make it work.
+                    <span className="font-serif italic text-gold-dark block mt-2">And yet, something inside still feels unfulfilled?</span>
                 </motion.h2>
 
                 <motion.div
