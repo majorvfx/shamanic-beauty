@@ -6,17 +6,17 @@ export default function FrequencyPage() {
     return (
         <main className="bg-background min-h-screen text-foreground font-sans selection:bg-gold/30">
             {/* Hero Section */}
-            <section className="relative w-full min-h-[50vh] flex items-center justify-center overflow-hidden">
+            <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden">
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
                     <Image
                         src="/assets/frequency-hero-illustration.jpg"
                         alt="Feminine Frequency Hero"
                         fill
-                        className="object-cover object-top opacity-40"
+                        className="object-cover object-top opacity-80"
                         priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/20 to-background" />
                 </div>
 
                 <div className="relative z-10 container mx-auto px-6 py-20 text-center">
