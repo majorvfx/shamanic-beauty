@@ -10,10 +10,10 @@ export default function FrequencyPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/assets/frequency-hero-v2.png"
+                        src="/assets/frequency-hero-illustration.jpg"
                         alt="Feminine Frequency Hero"
                         fill
-                        className="object-cover opacity-40"
+                        className="object-cover object-top opacity-40"
                         priority
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
