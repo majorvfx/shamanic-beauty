@@ -21,7 +21,7 @@ export default function FrequencyPage() {
 
                 <div className="relative z-10 container mx-auto px-6 pt-20 pb-0 text-center flex flex-col justify-end h-full">
                     <h1 className="text-4xl md:text-6xl font-serif text-[#FDFCFB] mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] animate-fade-in-up">
-                        The Feminine Frequency of Abundance with AO SCAN
+                        The Feminine Frequency of Abundance with <br /> AO SCAN
                     </h1>
 
                     <div className="mb-0">
