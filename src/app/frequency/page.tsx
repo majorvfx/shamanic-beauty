@@ -40,19 +40,34 @@ export default function FrequencyPage() {
             <section className="pt-8 pb-16 md:pt-12 md:pb-24 px-6 relative z-10">
                 <div className="container mx-auto max-w-4xl space-y-8 text-lg font-light leading-relaxed text-foreground/90">
                     <p>
-                        Sister, what if you could feel it in your body first? Your heart open and safe. Your throat settled, voice steady and strong, your belly relaxed like the sun warming your body, just calm. Not rushing, not reaching, just being held in that quiet sense of “enough.” It is the kind of ease that tells your nervous system it can finally rest. In that moment, you have everything you need, and this is when your natural state of abundance activates.
+                        As women, we play many roles, as mothers, daughters, sisters, and partners. We hold a lot.
                     </p>
                     <p>
-                        This is not a course designed to fix you or teach you how to become
-                        abundant. It is a return to the original state where women receive
-                        safely and life flows without force. A remembering of the divine
-                        architecture your body was born with.
+                        What if, in less than two minutes, you could receive support designed just for you?
                     </p>
                     <p>
-                        Abundance, in its true form, has never been about money alone, rather an overflow of resources, opportunity, support, love, creativity, gratitude, and time. When a woman’s body is regulated and her
-                        nervous system feels at ease, abundance expresses itself naturally.
-                        Not because she chased it, but because she is finally available to
-                        receive it.
+                        What if you could simply speak into your phone and, from your voice alone, receive personalized musical tracks created especially for you? Designed to help bring your body back into harmony and balance? You put on your headphones, close your eyes, and listen. That’s it!
+                    </p>
+                    <p className="font-bold text-lg text-foreground/100">
+                        Speak into your phone. Put on your headphones. Let the music support your return to harmony.
+                    </p>
+                    <p>
+                        That is what the AO Scan offers.
+                    </p>
+                    <p>
+                        The AO Scan is a bioresonant frequency technology that listens to the subtle patterns carried in your voice. This is not new. Vibration, frequency, and resonance are ancient. What is new is the delivery. This ancient modality translated into a modern, accessible form that fits into real life.
+                    </p>
+                    <p>
+                        Your voice reflects your mental, emotional, physical, and subconscious states. As a shamanic practitioner and spiritual coach, I tell my clients that your voice is the story of your soul. This ancient technology learns to listen to your story.
+                    </p>
+                    <p>
+                        From what it hears, the AO Scan creates supportive musical tracks designed to help your system return to coherence.
+                    </p>
+                    <p>
+                        As your system settles, harmony, joy, and authenticity can return with more ease.
+                    </p>
+                    <p className="font-bold text-lg text-foreground/100">
+                        Your voice tells the story. AO Scan brings you back to balance.
                     </p>
                     <p className="text-2xl font-serif text-gold italic text-center py-8">
                         Women are the Living Law of Abundance.
