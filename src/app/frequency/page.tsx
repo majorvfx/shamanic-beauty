@@ -23,9 +23,7 @@ export default function FrequencyPage() {
                     <h1 className="text-4xl md:text-6xl font-serif text-[#FDFCFB] mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] animate-fade-in-up">
                         The Feminine Frequency of Abundance
                     </h1>
-                    <h2 className="text-xl md:text-2xl font-light text-[#FDFCFB]/90 tracking-widest uppercase mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] animate-fade-in-up delay-200">
-                        Women are the Living Law of Abundance
-                    </h2>
+
                     <div className="mb-0">
                         <Link
                             href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
