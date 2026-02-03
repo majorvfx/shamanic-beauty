@@ -19,25 +19,27 @@ export default function FrequencyPage() {
                     <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/20 to-background" />
                 </div>
 
-                <div className="relative z-10 container mx-auto px-6 py-20 text-center">
-                    <Link
-                        href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
-                        target="_blank"
-                        className="inline-block px-8 py-4 bg-gold hover:bg-gold-light text-background font-medium text-lg rounded-none transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(212,175,55,0.3)] animate-fade-in-up mb-8"
-                    >
-                        Schedule a Session
-                    </Link>
-                    <h1 className="text-4xl md:text-6xl font-serif text-foreground mb-4 drop-shadow-[0_2px_4px_rgba(255,255,255,0.5)] animate-fade-in-up delay-200">
+                <div className="relative z-10 container mx-auto px-6 pt-20 pb-0 text-center flex flex-col justify-end h-full">
+                    <h1 className="text-4xl md:text-6xl font-serif text-[#FDFCFB] mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] animate-fade-in-up">
                         The Feminine Frequency of Abundance
                     </h1>
-                    <h2 className="text-xl md:text-2xl font-light text-foreground/90 tracking-widest uppercase mb-0 drop-shadow-[0_1px_2px_rgba(255,255,255,0.5)] animate-fade-in-up delay-300">
+                    <h2 className="text-xl md:text-2xl font-light text-[#FDFCFB]/90 tracking-widest uppercase mb-12 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] animate-fade-in-up delay-200">
                         Women are the Living Law of Abundance
                     </h2>
+                    <div className="mb-0">
+                        <Link
+                            href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
+                            target="_blank"
+                            className="inline-block px-8 py-4 bg-gold hover:bg-gold-light text-background font-medium text-lg rounded-none transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(212,175,55,0.3)] animate-fade-in-up delay-300"
+                        >
+                            Schedule a Session
+                        </Link>
+                    </div>
                 </div>
             </section>
 
             {/* Main Content - Frequency */}
-            <section className="py-16 md:py-24 px-6 relative z-10">
+            <section className="pt-8 pb-16 md:pt-12 md:pb-24 px-6 relative z-10">
                 <div className="container mx-auto max-w-4xl space-y-8 text-lg font-light leading-relaxed text-foreground/90">
                     <p>
                         Sister, what if you could feel it in your body first? Your heart open and safe. Your throat settled, voice steady and strong, your belly relaxed like the sun warming your body, just calm. Not rushing, not reaching, just being held in that quiet sense of “enough.” It is the kind of ease that tells your nervous system it can finally rest. In that moment, you have everything you need, and this is when your natural state of abundance activates.
