@@ -20,19 +20,19 @@ export default function FrequencyPage() {
                 </div>
 
                 <div className="relative z-10 container mx-auto px-6 py-20 text-center">
-                    <h1 className="text-4xl md:text-6xl font-serif text-[#FDFCFB] mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] animate-fade-in-up">
-                        The Feminine Frequency of Abundance
-                    </h1>
-                    <h2 className="text-xl md:text-2xl font-light text-[#FDFCFB]/90 tracking-widest uppercase mb-8 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] animate-fade-in-up delay-200">
-                        Women are the Living Law of Abundance
-                    </h2>
                     <Link
                         href="https://calendar.app.google/ufFSRhQpDQZyahyZ6"
                         target="_blank"
-                        className="inline-block px-8 py-4 bg-gold hover:bg-gold-light text-background font-medium text-lg rounded-none transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(212,175,55,0.3)] animate-fade-in-up delay-300"
+                        className="inline-block px-8 py-4 bg-gold hover:bg-gold-light text-background font-medium text-lg rounded-none transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(212,175,55,0.3)] animate-fade-in-up mb-8"
                     >
                         Schedule a Session
                     </Link>
+                    <h1 className="text-4xl md:text-6xl font-serif text-foreground mb-4 drop-shadow-[0_2px_4px_rgba(255,255,255,0.5)] animate-fade-in-up delay-200">
+                        The Feminine Frequency of Abundance
+                    </h1>
+                    <h2 className="text-xl md:text-2xl font-light text-foreground/90 tracking-widest uppercase mb-0 drop-shadow-[0_1px_2px_rgba(255,255,255,0.5)] animate-fade-in-up delay-300">
+                        Women are the Living Law of Abundance
+                    </h2>
                 </div>
             </section>
 
