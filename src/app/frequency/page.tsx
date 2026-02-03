@@ -21,7 +21,7 @@ export default function FrequencyPage() {
 
                 <div className="relative z-10 container mx-auto px-6 pt-20 pb-0 text-center flex flex-col justify-end h-full">
                     <h1 className="text-4xl md:text-6xl font-serif text-[#FDFCFB] mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] animate-fade-in-up">
-                        The Feminine Frequency of Abundance
+                        The Feminine Frequency of Abundance with AO SCAN
                     </h1>
 
                     <div className="mb-0">
@@ -111,7 +111,7 @@ export default function FrequencyPage() {
                         {/* Image Side */}
                         <div className="relative h-[400px] md:h-[600px] w-full rounded-2xl overflow-hidden shadow-2xl border border-gold/10 order-2 md:order-1">
                             <Image
-                                src="/assets/ao-scan.png"
+                                src="/assets/ao-scan-new.jpg"
                                 alt="AO Scan Technology"
                                 fill
                                 className="object-cover"
